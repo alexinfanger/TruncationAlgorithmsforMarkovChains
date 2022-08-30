@@ -1,0 +1,5 @@
+println("Compute reference solutions: $(Dates.hour(now())):$(Dates.minute(now()))")
+include("../src/models/toggle_switch/TS-20-1_reference_solution.jl")
+include("../src/models/toggle_switch/TS-90-1_reference_solution.jl")
+include("../src/models/queues/gm1/gm1_reference_solutions.jl")
+println("Finished computing reference solutions: $(Dates.hour(now())):$(Dates.minute(now()))")
