@@ -12,7 +12,5 @@ To attempt to reproduce our results, clone the repository and then run the follo
 
 julia> using Pkg
 julia> Pkg.instantiate()
-julia> include("scripts/reproduce_comparisons.jl")
+julia> include("scripts/reproduce_paper_plots.jl")
 ```
-
-
